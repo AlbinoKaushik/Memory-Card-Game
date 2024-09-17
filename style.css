@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    border: 1px black solid;
+    /* align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    padding-left: 40%; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+
+}
+.box{
+    border: 1px black solid;  
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
