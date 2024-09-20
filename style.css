@@ -4,7 +4,7 @@
 }
 
 h1 {
-    border: 1px black solid;
+    /* border: 1px black solid; */
     /* align-items: center;
     justify-items: center;
     justify-content: center;
@@ -17,13 +17,20 @@ h1 {
 }
 #container{
     display: flex;
-    flex-wrap: wrap;
-    width: 200px;
+    flex-wrap: wrap;    
+    padding-left: 340px;
+    padding-right: 340px;
+    /* align-items: center; */
+    
 
 }
 .box{
-    border: 1px black solid;  
-    display: flex;
-    flex-wrap: wrap;
-    width: 200px;
+    border: 3px rgb(202, 40, 40) solid;  
+    /* display: flex;
+    flex-wrap: wrap; */  
+    /* width: 200px;    */
+}
+
+.hidden{
+    
 }
